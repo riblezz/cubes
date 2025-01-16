@@ -1,8 +1,10 @@
+
 body {
     margin: 0%;
     padding: 0%;
-    background-color: #212121;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, #472f4e, #602646);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "BalsamiqSans";
 }
 
 .all {
@@ -16,7 +18,7 @@ body {
 .winners {
     margin: 0%;
     padding: 0%;
-    color: #A35C7A;
+    color: #ffdde7;
     font-size: 5rem;
     text-align: center;
 }
@@ -42,7 +44,7 @@ body {
 .playerOne, .playerTwo {
     text-align: center;
     font-size: 2rem;
-    color: antiquewhite;
+    color: #EFB6C8;
 }
 
 .cubeOne, .cubeTwo {
@@ -52,9 +54,9 @@ body {
     justify-content: space-evenly;
     background-color: #A35C7A;
     width: 70vh;
-    background: linear-gradient(to bottom, #7a4159, #C890A7);
+    background: linear-gradient(to bottom, #EFB6C8, #A888B5);
     border-radius: 2rem;
-    box-shadow: 1px 5px 20px 0px;
+    box-shadow: 5px 5px 20px 10px #281b2c;
 }
 
 .oneColumn {
@@ -83,7 +85,7 @@ body {
 .circle {
     width: 7.5rem;
     height: 7.5rem;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     opacity: 0%;
 }
