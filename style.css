@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #212121;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.all {
+    margin: 0%;
+    padding: 0%;  
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.winners {
+    margin: 0%;
+    padding: 0%;
+    color: #A35C7A;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.twoElements {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+    width: 80vh;
+    height: 80vh;
+}
+
+.playerOne, .playerTwo {
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.cubeOne, .cubeTwo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #A35C7A;
+    width: 70vh;
+    background: linear-gradient(to bottom, #7a4159, #C890A7);
+    border-radius: 2rem;
+    box-shadow: 1px 5px 20px 0px;
+}
+
+.oneColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    
+}
+
+.twoColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.threeColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+}
+
+
+.circle {
+    width: 7.5rem;
+    height: 7.5rem;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    opacity: 0%;
+}
+
+.hidden {
+    opacity: 100%;
+}
