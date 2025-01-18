@@ -65,7 +65,7 @@ body {
     color: #ebb9e9;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.2s ease; /* Плавный переход */
+    transition: all 0.2s ease;
     
 }
 .button:hover {
@@ -73,14 +73,11 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: 1px 0px 3px rgb(251, 159, 216);
     box-shadow: 2px 1px 10px #a43295;
-    /* width: 10.05rem;
-    height: 5.05rem;
-    font-size: 1.55rem; */
     transform: scale(0.9s);
 }
 
 button:active {
-    transform: scale(1.1); /* Лёгкое сжатие */
+    transform: scale(1.1);
     
 }
 .playerOne, .playerTwo {

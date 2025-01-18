@@ -3,7 +3,6 @@ function random() {
     return randomNum
 }
 
-
 // document.querySelector("#circleOne").classList.add("hidden");
 // document.querySelector("#circleTwo").classList.add("hidden");
 // document.querySelector("#circleThree").classList.add("hidden");
@@ -80,7 +79,6 @@ function randomCube1() {
     return rnd
 }
 
-
 function randomCube2() {
     let rnd = random();
     if(rnd === 1) {
@@ -149,9 +147,6 @@ function randomCube2() {
 
 var winL = ["1 игрок выиграл!", "2 игрок выиграл!", "Ничья!"]
 
-// const one = randomCube1();
-// const two = randomCube2();
-
 function winner(one, two) {
     if(one > two) {
         document.querySelector(".winners").innerHTML = winL[0];
@@ -167,8 +162,6 @@ function winner(one, two) {
         document.querySelector(".playerTwo").classList.add("newColor")
     }
 }
-
-// winner(randomCube1(), randomCube2());
 
 function clickButton() {
     document.querySelector(".button").addEventListener("click", () => {
